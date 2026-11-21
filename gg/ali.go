@@ -5,10 +5,8 @@ import (
 )
 
 func main() {
-	var a int
-	var a8 int8
-	var a16 int16
-	var a32 int32
-	var a64 int64
-	fmt.Println("THIS is the variables and the numbers", a, a8, a16, a32, a64)
+	var cn1 complex64 = complex(1+2, 0)
+	var cn2 complex128 = complex(3*4, 0)
+	fmt.Println("this is the complex numbers", cn1)
+	fmt.Println("this is the complex numbers", cn2)
 }
