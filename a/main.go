@@ -21,7 +21,25 @@ func main() {
 	var totalFruits = apples + oranges
 	fmt.Println("Total fruits:", totalFruits)*/
 
-	var ali, sheraz, fawaz string = "ali is in class 2\n", "sheraz is in class 1\n", "fawaz is in class 1 also with sheraz\n"
+	/*var ali, sheraz, fawaz string = "ali is in class 2\n", "sheraz is in class 1\n", "fawaz is in class 1 also with sheraz\n"
 
-	fmt.Print(ali, sheraz, fawaz)
+	fmt.Print(ali, sheraz, fawaz)*/
+
+	var x float64 = 96.3
+	y := 98 
+	z := "this is the test"
+ 	
+	fmt.Println(x)
+	
+	fmt.Println(y)
+	
+	fmt.Println(z)
+	
+	fmt.Printf("type: %T\n", x )
+	
+	fmt.Printf("Type: %T\n", y)
+	
+	fmt.Printf("Type : %T\n", z)
+
+
 }
