@@ -1,8 +1,10 @@
-   package main 
-   import "fmt"
-   func main(){
-	var n string 
-	fmt.scan("this is the name",n)
-	fmt.
-	fmt.Println("this is the name of the file:" n)
-   }
+package main
+
+import "fmt"
+
+func main() {
+	var sherry string
+	fmt.Println("input your name:")
+	fmt.Scan(&sherry)
+	fmt.Println("hello, how are you", sherry)
+}
