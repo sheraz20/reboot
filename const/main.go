@@ -20,4 +20,19 @@ func main() {
 	const quote = "\"this is the quote!\" - a programmer"
 	fmt.Println("Constant greeting:", greeting)
 	fmt.Println("Constant quote:", quote)
+	// break line
+	const Bell = "Bell is \a"
+	fmt.Println(Bell)
+	const LB = "I\nam\ngood\nguy\n!"
+	fmt.Println(LB)
+
+	const bio = "this is sheraz " + "he is trying to get into rebootcamp" + "and thats's way he is preparing so hard"
+	fmt.Println(bio)
+	const sherry = "age is 22" + " and he is a good guy" + " and he is a good programmer"
+	fmt.Println(sherry)
+	// break line
+	const active = true
+	const ready = false
+	fmt.Println("Constant active:", active)
+	fmt.Println("Constant ready:", ready)
 }
