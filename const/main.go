@@ -35,4 +35,10 @@ func main() {
 	const ready = false
 	fmt.Println("Constant active:", active)
 	fmt.Println("Constant ready:", ready)
+
+	// break line
+	const length = 50
+	const width = 5
+	area := length * width
+	fmt.Println("Area:", area)
 }
